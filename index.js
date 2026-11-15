@@ -9,6 +9,7 @@ const port = process.env.PORT || 8000;
 
 app.use(cors({
   origin: [
+    'https://ideavault-project.vercel.app',
     'https://assignment-frontend-parvez.vercel.app',
     'https://ideavault-frontend-three.vercel.app',
     'https://ideavault-frontend-parvezpatwaryys-projects.vercel.app',
